@@ -1,0 +1,75 @@
+{
+  "filters": [
+    {
+      "field": "name",
+      "label": "Name",
+      "type": "text",
+      "required": true,
+      "minLenth": 2,
+      "maxLength": 8,
+      "value": "",
+      "placeHolder": "Name",
+      "order": 1
+    },
+    {
+      "field": "contactNumber",
+      "label": "Phone Number",
+      "type": "text",
+      "required": true,
+      "minLenth": 2,
+      "maxLength": 8,
+      "value": "",
+      "placeHolder": "Phone Number",
+      "order": 2
+    },
+    {
+      "field": "email",
+      "label": "Email",
+      "type": "text",
+      "required": true,
+      "minLenth": 2,
+      "maxLength": 8,
+      "value": "",
+      "placeHolder": "Email",
+      "order": 3
+    },
+    {
+      "field": "dateOfBirth",
+      "label": "Date Of Birth",
+      "type": "text",
+      "value": "",
+      "placeHolder": "Email",
+      "order": 4
+    },
+    {
+      "field": "country",
+      "label": "Country",
+      "type": "select",
+      "required": true,
+      "value": "",
+      "order": 5,
+      "options": [
+        {
+          "key": "Select",
+          "value": ""
+        },
+        {
+          "key": "United States",
+          "value": "US"
+        },
+        {
+          "key": "India",
+          "value": "IN"
+        }
+      ]
+    },
+    {
+      "field": "address",
+      "label": "Address",
+      "type": "textArea",
+      "required": true,
+      "value": "",
+      "order": 6
+    }
+  ]
+}
